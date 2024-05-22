@@ -10,8 +10,6 @@ name: Upload Python Package
 
 on:
   workflow_dispatch:
-	run-name:
-    types: [published]
 
 permissions:
   contents: read
